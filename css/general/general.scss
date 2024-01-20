@@ -1,0 +1,59 @@
+
+@import "../anim/anim.css";
+.wrapper{
+  overflow: hidden;
+}
+.container{
+  max-width: 1240px;
+  padding: 0 20px;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+body{
+  background-color: #080B2A;
+
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+section{
+  padding: 80px 0;
+}
+
+.section__header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  text-align: center;
+
+  &-title{
+    color: #FFF;
+    font-family: "ClashDisplay-Medium";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 112.5% */
+    margin-bottom: 16px;
+  }
+  &-descr{
+    color: #FFF;
+    text-align: center;
+    font-family: "ClashDisplay-Bold";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
+
+.star{
+  animation: starAnimation 3s infinite linear;
+
+}

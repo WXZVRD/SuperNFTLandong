@@ -1,0 +1,14 @@
+@import "./assets/fonts/css/clash-display.css";
+@import "css/general/normalize.css";
+@import "css/general/general.css";
+@import "css/general/presets.css";
+
+
+@import "css/sections/header.css";
+@import "css/sections/main.css";
+@import "css/sections/why.css";
+@import "css/sections/live.css";
+@import "css/sections/road.css";
+@import "css/sections/footer.css";
+
+

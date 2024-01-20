@@ -1,0 +1,83 @@
+.live{
+  position: relative;
+  .blink1{
+    width: 356px;
+    height: 356px;
+    flex-shrink: 0;
+    border-radius: 356px;
+    background: #2A3E84;
+    filter: blur(175px);
+    position: absolute;
+    content: '';
+    top: 523px;
+    left: -159px;
+  }
+
+  .star1{
+    background-image: url("../../assets/img/star.svg");
+    position: absolute;
+    content: "";
+    width: 13.707px;
+    height: 15.665px;
+    transform: rotate(-170.089deg);
+    flex-shrink: 0;
+    background-position: center;
+    background-size: contain;
+    bottom: 159px;
+    left: -38px;
+    z-index: -2;
+  }
+
+  .star2{
+background-image: url("../../assets/img/star.svg");
+    position: absolute;
+    content: "";
+    width: 24.202px;
+    height: 27.66px;
+    transform: rotate(-170.089deg);
+    flex-shrink: 0;
+    background-position: center;
+    background-size: contain;
+    bottom: 516px;
+    left: 144px;
+    z-index: -2;
+  }
+
+  .star3{
+background-image: url("../../assets/img/star.svg");
+    position: absolute;
+    content: "";
+    width: 21.504px;
+    height: 24.576px;
+    transform: rotate(-170.089deg);
+    flex-shrink: 0;
+    background-position: center;
+    background-size: contain;
+    bottom: 183px;
+    left: 1191px;
+    z-index: -2;
+  }
+
+  .star4{
+background-image: url("../../assets/img/star.svg");
+    position: absolute;
+    content: "";
+    width: 13.707px;
+    height: 15.665px;
+    transform: rotate(-170.089deg);
+    flex-shrink: 0;
+    background-position: center;
+    background-size: contain;
+    bottom: 36px;
+    left: 834px;
+    z-index: -2;
+  }
+}
+
+
+.live__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

@@ -1,0 +1,152 @@
+.outlined__btn {
+  border-radius: 30px;
+  border: 1px solid #15BFFD;
+  background: none;
+  padding: 15px 20px;
+  color: #15BFFD;
+  text-align: center;
+  font-family: "ClashDisplay-Medium";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.outlined__btn:hover {
+  color: #fff;
+  background-color: #15BFFD;
+}
+
+.contained__btn {
+  border-radius: 30px;
+  border: 1px solid #15BFFD;
+  background: #15BFFD;
+  color: #fff;
+  font-family: "ClashDisplay-Medium";
+  padding: 15px 20px;
+}
+.contained__btn:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.standart__btn {
+  color: #15BFFD;
+  font-family: "ClashDisplay-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  background: none;
+  border: none;
+}
+
+.arrow {
+  height: 2px;
+  width: 25%;
+  background-color: #15BFFD;
+  border-radius: 0 50px 50px 0;
+  position: relative;
+}
+.arrow:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 10px;
+  background-color: #15BFFD;
+  border-radius: 50px;
+  transform: rotate(45deg);
+  top: -4px;
+  right: 0;
+}
+.arrow:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 10px;
+  background-color: #15BFFD;
+  border-radius: 50px;
+  transform: rotate(-45deg);
+  bottom: -4px;
+  right: 0;
+}
+
+.card {
+  padding: 16px;
+  border-radius: 20px;
+  height: 409px;
+  width: 300px;
+  transform: rotate(0deg);
+}
+.card .card__border {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  backdrop-filter: blur(5px);
+}
+.card .type {
+  color: #FFF;
+  font-family: "ClashDisplay-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.card .cost__block {
+  margin: 4px 0 10px 0;
+  display: flex;
+  align-items: center;
+  max-width: 100px;
+  width: 100%;
+}
+.card .cost__block-img {
+  margin-right: 10px;
+}
+.card .cost__block-num {
+  color: #15BFFD;
+  text-align: right;
+  font-family: "ClashDisplay-Bold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.card .card__img {
+  width: 268px;
+  height: 241px;
+  border-radius: 22px;
+  overflow: hidden;
+  background: none;
+}
+.card .card__title {
+  color: #FFF;
+  font-family: "ClashDisplay-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.card .card__author {
+  display: flex;
+  align-items: center;
+  max-width: 160px;
+  width: 100%;
+}
+.card .card__author-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+.card .card__author-name {
+  color: #968BA1;
+  font-family: "ClashDisplay-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+}
+
+/*# sourceMappingURL=presets.css.map */
